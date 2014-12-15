@@ -1,5 +1,6 @@
 # ActivemerchantPatchForChina
 require 'activemerchant_patch_for_china/version'
+require 'offset_payments_patch.rb'
 require 'integrations_helper'
 require 'active_merchant/billing/integrations/alipay'
 require 'active_merchant/billing/integrations/bill99'
