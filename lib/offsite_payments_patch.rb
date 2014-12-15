@@ -1,3 +1,5 @@
+puts "yes, start load....."
+
 module ActiveMerchant #:nodoc:
   module Billing #:nodoc:
     module Integrations #:nodoc:
@@ -7,3 +9,6 @@ module ActiveMerchant #:nodoc:
     end
   end
 end
+
+puts "helper=?"
+puts ActiveMerchant::Billing::Integrations::Helper
